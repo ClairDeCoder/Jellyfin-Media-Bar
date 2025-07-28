@@ -689,6 +689,7 @@
   .button-container {
     left: 3vw;
     transform: scale(0.85);
+    margin-top: -30px;
   }
 
   .dots-container {
