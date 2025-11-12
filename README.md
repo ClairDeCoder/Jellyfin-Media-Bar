@@ -1,5 +1,8 @@
 # Jellyfin-Media-Bar - Now with Play Now Function
 
+## This is a minor tweak to MakD's slideshowpure.css
+- The point of this is to raise the slide show info/play/favorite button so it does not overlap with the first rows Title Section
+- The index.html text to copy has been changed below to reference this repositories CSS file
 > [!NOTE]
 > The Media Bar is currently partly compatible with the Jellyfin 10.11.x update. We’re aware of the changes required to make it fully compatible and will be addressing them soon.
 > 
@@ -45,7 +48,7 @@ Here I present my version with some code improvements, loading optimizations, an
   2. Search for `</head>`
   3. Just before the `</head>`, plug the below code
 ```
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MakD/Jellyfin-Media-Bar@latest/slideshowpure.css" />
+    <link rel="stylesheet" href="https://clairdecoder.github.io/Jellyfin-Media-Bar/slideshowpure.css" />
     <script async src="https://cdn.jsdelivr.net/gh/MakD/Jellyfin-Media-Bar@latest/slideshowpure.js"></script>
 ```
 </details>
